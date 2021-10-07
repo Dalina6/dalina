@@ -1,0 +1,142 @@
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 300px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+//Typography
+//Font Sizes
+// .font-size-attr
+// get_font_size_by_breakpoint('small', 'xs');
+$font_sizes: (
+  "sm": (
+    "default": 20px,
+    "xxl": 16px,
+    "lg": 13px,
+    "md": 13px,
+    "sm": 13px,
+    "xs": 10px,
+  ),
+  "default": (
+    "default": 26px,
+    "xxl": 23px,
+    "lg": 19px,
+    "md": 16px,
+    "sm": 14px,
+    "xs": 14px,
+  ),
+  "md": (
+    "default": 30px,
+    "xxl": 26px,
+    "lg": 22px,
+    "md": 19px,
+    "sm": 16px,
+    "xs": 14px,
+  ),
+  "big": (
+    "default": 40px,
+    "xxl": 34px,
+    "lg": 30px,
+    "md": 25px,
+    "sm": 20px,
+    "xs": 15px,
+  ),
+  "lg": (
+    "default": 50px,
+    "xxl": 42px,
+    "lg": 35px,
+    "md": 30px,
+    "sm": 25px,
+    "xs": 18px,
+  ),
+  "xl": (
+    "default": 70px,
+    "xxl": 55px,
+    "lg": 45px,
+    "md": 40px,
+    "sm": 32px,
+    "xs": 20px,
+  ),
+  "xxl": (
+    "default": 100px,
+    "xxl": 65px,
+    "lg": 55px,
+    "md": 45px,
+    "sm": 40px,
+    "xs": 32px,
+  ),
+);
+
+$font: (
+  "default": "Gilroy",
+);
+// Colors
+// .color-attr
+// .hover-color-attr
+// .bg-attr
+// .hover-bg-attr
+$colors: (
+  "danger": red,
+  "primary": #eaffff,
+  "linear-gradient-first": #edefff,
+  "linear-gradient-second": #b9c0ff,
+  "light-green": #00dbbd,
+  "coral": #00c2e7,
+  "cream": #ebfcff,
+  "wallet-gray": #c3c6c5,
+  "white": #ffffff,
+  "black": #000000,
+  "blue": #1052ef,
+);
+
+$font_colors: (
+  "main": #0b2360,
+  "secondary": #6777a0,
+  "blue": #1052ef,
+  "button-color": #c1f3e4,
+);
+
+$spacings: (
+  "xsmall": 5px,
+  "small": 10px,
+  "default": 15px,
+  "medium": 20px,
+  "large": 25px,
+  "seperator": 30px,
+);
+
+//Icons
+$icon: (
+  sizes: (
+    "sm": 10px,
+    "md": 16px,
+    "lg": 20px,
+    "xl": 24px,
+  ),
+  sources: (
+    //('icon_name', '/', 'png'),
+      //Other icons
+      //('filename', 'path/', 'png'),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+  ),
+);
+
+//Defaults
+$defaults: (
+  "font-size": get_font_size($font_sizes, "default"),
+  "line-height": 1.4em,
+  // Dotdotdot plugin is supported just add these classes {.font-size-[size].dotdotdot.lines-[1-5]}
+    "line-height-size": 1.4,
+  "border-radius": 5px,
+  "border-color": map-get($colors, "gray"),
+  "header-height": 80px,
+  "header-height-mobile": 60px,
+);

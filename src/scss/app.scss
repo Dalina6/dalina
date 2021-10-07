@@ -1,0 +1,66 @@
+// NonPointing Helpers
+@import "./helpers/functions";
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+// @import url("https://use.typekit.net/cmu7ajc.css");
+// @import "~swiper/swiper.scss";
+// @import "~swiper/components/navigation/navigation.scss";
+
+/* Css style goes here */
+html {
+  // Footer Always on bottom
+  // height: 100%;
+  // box-sizing: border-box;
+  body {
+    background-color: map-get($colors, "primary");
+    // Footer Always on bottom
+    // Footer must be position:absolute
+    // position: relative;
+    // padding-bottom: 110px !important;
+    // overflow-x:hidden;
+    margin: 0;
+    // margin-top: map-get($defaults, "header-height") + 1px;
+    line-height: map-get($defaults, "line-height");
+    font-size: map-get($defaults, "font-size");
+    font-family: map-get($font, "default");
+    color: map-get($colors, "black");
+    padding: 0px;
+
+    a {
+      text-decoration: none;
+      &:visited {
+        color: map-get($font_colors, "main");
+      }
+    }
+    #app {
+      box-sizing: border-box;
+      min-height: 100vh;
+      height: 100%;
+      background-color: map-get($colors, "primary");
+
+      text-align: center;
+      .input {
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+// //Pointing Helpers [utilities]
+@import "./helpers/utilities";
+@import "./helpers/_typographic";
+// @import "./components/hamburger";
+// @import "./components/skeletonLoader";
+// @import "./components/glowing";
+// @import "./components/buttons";
+// @import "./components/card";
+// @import "./components/formCheck";
+// @import "./components/formValidation";
+// @import "./components/dotdotdot";
+// @import "./components/modal";
+// @import "./components/select2";
+
+@import "./helpers/media";

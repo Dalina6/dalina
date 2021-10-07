@@ -1,0 +1,186 @@
+{
+  "message": "Hello i18n !!",
+  "header": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "projects": "Projects",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "candidates": "Candidates"
+  },
+  "footer": {
+    "card": {
+      "card-title": "Build your idea today.",
+      "button": "Contact Us"
+    },
+    "cardinfo": {
+      "projects": "projects",
+      "services": "services",
+      "aboutUs": "about us",
+      "contactUs": "contact us",
+      "candidates": "candidates",
+      "address": "Shyqyri Bërxolli Street,",
+      "zipcode": "Tiranë 1001, Albania"
+    },
+    "copyright": {
+      "rights": "All rights are reserved",
+      "terms": "Terms & Conditions / Privacy Policy"
+    },
+    "phoneNr": {
+      "tel": "Tel: +355 123 456 789 0",
+      "mobile": "Mobile: +355 123 456 789 0"
+    },
+    "candidates": {
+      "title": " Be part of <br> our team",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "select": "Select your Option",
+      "cv": "Attach your CV",
+      "btn": "Apply"
+    },
+    "contactUs": {
+      "title": "How can <br/> we  help you?",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "company_type": "Company Type",
+      "email": "Your Email",
+      "content": "Content",
+      "btn": "Submit"
+    },
+    "form": {
+      "options": {
+        "backend": "Backend Developer",
+        "frontend": "Front Developer",
+        "softwareEngineer": "Software Engineer",
+        "systemAnalyst": "System Analyst",
+        "solutionArchitect": "Solution Architect",
+        "uiux": "Ui-UX Designer"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Web Design & Development Studio",
+      "text": [
+        "Lorem Ipsum Dolorem siteLorem Ipsum Dolorem siteLorem Ipsum Dolorem siteLorem Ipsum Dolorem siteLorem",
+        "Shprehje_en 1",
+        "Shprehje_en 2",
+        "Shprehje_en 3",
+        "Shprehje_en 4",
+        "Shprehje_en 5",
+        "Shprehje_en 6",
+        "Shprehje_en 7",
+        "Shprehje_en 8",
+        "Shprehje_en 9",
+        "Shprehje_en 10",
+        "Shprehje_en 11",
+        "Shprehje_en 12",
+        "Shprehje_en 13",
+        "Shprehje_en 14",
+        "Shprehje_en 15"
+      ],
+      "button": {
+        "quote": "Get a quote",
+        "view": "View All"
+      },
+      "description": "We are a creative digital design studio, o We are a creative digital design studio, o We are a creative digital design studio, offering state-of-the-art web development services with top-notch.",
+      "service": {
+        "title": "Bring the power of creativity to the world’s businesses.",
+        "subTitle": "In nulla mi, interdum nec purus id, mattis semper eros. Mi, interdum nec purus id, mattis semper eros.",
+        "see-more": "Want to see more?"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "text": "Lorem Ipsum Dolorem siteLorem Ipsum Dolorem siteLorem",
+      "view-more": "View More",
+      "hover": {
+        "button": "View Project"
+      }
+    },
+    "aboutUs": {
+      "main": {
+        "title": "About Us",
+        "text": "We are the best"
+      },
+      "text": {
+        "title": "Bring the power of creativity to the world’s businesses.",
+        "subTitle": "In nulla mi, interdum nec purus id, mattis semper eros. Mi, interdum nec purus id, mattis semper eros."
+      },
+      "description": {
+        "title": "We are a creative digital design studio, offering state-of-the-art web development services with top-notch.",
+        "body": "Morbi dapibus, purus eu consectetur imperdiet, sapien lacus pharetra purus, rhoncus tincidunt mi velit feugiat.<br/> <br/>  Praesent dignissim libero in magna tempus pellentesque. Duis elementum convallis nibh.Morbi dapibus, purus eu consectetur imperdiet, sapien lacus pharetra purus, rhoncus tincidunt mi velit feugiat. Praesent dignissim libero in magna tempus pellentesque. Duis elementum convallis nibh."
+      },
+      "why-us": {
+        "whyUs": "Why Us",
+        "text": "Duis eget tincidunt odio. Duis metus velit, rhoncus nec cursus sit amet, interdum et velit. Cras quis quam ligula. Nulla fringilla accumsan ipsum, a accumsan justo pharetra a. Pellentesque eleifend, elit eu placera.<br/> <br/> Ut dictum semper ex a vehicula. Phasellus ac rhoncus neque, et accumsan eros. Quisque a molestie ex, iaculis feugiat nisi. Nam dignissim urna ipsum. purus."
+      }
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "text": "We are the best",
+      "lower": {
+        "message": "Bring the power of creativity to the world’s businesses.",
+        "title": "Get in touch",
+        "description": "Duis eget tincidunt odio. Duis metus velit, rhoncus nec cursus amet, interdum et velit. Cras quis quam ligula. Nulla fringilla accumsan ipsum, a accumsan justo pharetra a.",
+        "contact": {
+          "company": "StreamUp LLC",
+          "street": "Rruga Shyqyri Berxolli",
+          "location": "Tirane 1001, Albania"
+        }
+      },
+      "button": {
+        "direction": "Get Directions"
+      }
+    },
+    "candidates": {
+      "title": "Candidates",
+      "text": "We are the best",
+      "mid": {
+        "title": "Bring the power of creativity to the world’s businesses.",
+        "subtitle": "Bring the power of creativity to the world’s businesses."
+      }
+    },
+    "services": {
+      "first-line": "Driven By Insight.",
+      "text": "Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas. Lorem ipsum. Dolores quilas veritas.",
+      "after": {
+        "bold": "Integrated Services And Solutions",
+        "text": "Bring the power of creativity to the world’s businesses."
+      },
+      "download": {
+        "button": {
+          "pdf": "Download Pdf"
+        }
+      },
+      "bottom": {
+        "text": "Duis eget tincidunt odio. Duis metus velit, rhoncus nec cursus sit amet, interdum et velit. Cras quis quam ligula."
+      }
+    },
+    "project": {
+      "months": {
+        "0": "January",
+        "1": "February",
+        "2": "March",
+        "3": "April",
+        "4": "May",
+        "5": "June",
+        "6": "July",
+        "7": "August",
+        "8": "September",
+        "9": "October",
+        "10": "November",
+        "11": "December"
+      },
+      "overview": "Overview",
+      "description": "We are a creative digital design studio, offering state-of-the-art web development services with top-notch.",
+      "share": "Share:",
+      "next": "Next Project",
+      "see-more": "Want to see more? Here are some more wonderful projects limited not only to :"
+    }
+  }
+}
